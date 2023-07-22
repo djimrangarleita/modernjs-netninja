@@ -1,0 +1,11 @@
+.digital-clock-wrapper {
+    margin: 50px auto;
+    width: 100%;
+    max-width: 500px;
+}
+
+.digital-clock {
+    display: block;
+    text-align: center;
+    font-size: 50px;
+}
