@@ -1,0 +1,20 @@
+.page-content {
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.todo-list {
+    margin: 50px 0;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    outline: none !important;
+    border: 1px solid grey !important;
+}
+
+.delete {
+    cursor: pointer;
+}
+
