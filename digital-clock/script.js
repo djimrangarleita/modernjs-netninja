@@ -2,6 +2,5 @@ const digitalClock = document.querySelector('.digital-clock');
 
 
 setInterval(() => {
-    const date = new Date();
-    digitalClock.textContent = date.toLocaleTimeString();
+    digitalClock.textContent = new Date().toLocaleTimeString();
 }, 1000);
